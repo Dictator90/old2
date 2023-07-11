@@ -48,7 +48,7 @@ header h1 {
 
 article {
     margin: 0 auto;
-    padding: 28px 0;
+    padding: 32px 0;
 }
 
 article img {
@@ -73,10 +73,6 @@ article:nth-child(even) {
 
 article:nth-child(even) .article-meta a {
     color: white
-}
-
-section.news {
-    margin: 50px 0;
 }
 
 .container {
