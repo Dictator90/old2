@@ -46,9 +46,9 @@ header h1 {
     z-index: 2;
 }
 
-
 article {
     margin: 0 auto;
+    padding: 28px 0;
 }
 
 article img {
@@ -66,6 +66,24 @@ article img {
     color: black;
 }
 
+article:nth-child(even) {
+    background: #292929;
+    color: white
+}
+
+article:nth-child(even) .article-meta a {
+    color: white
+}
+
+section.news {
+    margin: 50px 0;
+}
+
+.container {
+    max-width: 756px;
+    margin: 0 auto;
+}
+
 footer {
     background: #18191b;
     color: white;
@@ -81,6 +99,7 @@ footer .footer {
 footer .links {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 footer .links a {
@@ -93,4 +112,21 @@ footer .links a:hover {
 
 footer .copyright {
     text-align: center;
+}
+
+article h2 {
+    display: flex;
+    align-items: center;
+}
+article:nth-child(1) h2:before,
+article:nth-child(2) h2:before {
+    content: "new";
+    background: #518351;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    color: white;
+    height: fit-content;
+    margin-right: 8px;
+    line-height: 100%;
 }
