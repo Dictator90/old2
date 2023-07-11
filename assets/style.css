@@ -45,18 +45,10 @@ header:after {
 header h1 {
     z-index: 2;
 }
-section, article {
-    margin: 0 auto;
-}
 
-section {
-    max-width: 1140px;
-    padding: 0 8px;
-}
 
 article {
-    max-width: 768px;
-    margin-top: 3rem;
+    margin: 0 auto;
 }
 
 article img {
