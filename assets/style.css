@@ -73,3 +73,18 @@ article img {
 .article-meta a {
     color: black;
 }
+
+footer .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .copyright {
+    text-align: center;
+}

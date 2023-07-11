@@ -6,8 +6,8 @@
 
 * HTML
 * CSS
-* Web-fonts (Roboto)
+* Web-fonts (Manrope)
 
 ## Как открыть/запустить
 
-Зайти в папку сайта в файловом менеджере, кликнуть 2 раза по файлу [index.html](index.html).
+Перейти по ссылке [Ссылка](https://dictator90.github.io/).
